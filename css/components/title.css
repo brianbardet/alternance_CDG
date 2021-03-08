@@ -1,0 +1,23 @@
+.title-primary{
+   @apply text-center my-5;
+}
+
+.title-primary span {
+    @apply text-white bg-primary px-3 py-1.5 shadow-md text-3xl font-medium;
+}
+
+.title-secondary{
+    @apply text-center my-5;
+}
+
+.title-secondary span {
+    @apply text-white bg-secondary px-3 py-1.5 shadow-md text-3xl font-medium;
+}
+
+.title-third{
+    @apply text-center my-5;
+}
+
+.title-third span {
+    @apply text-white bg-third px-3 py-1.5 shadow-md text-3xl font-medium;
+}

@@ -1,0 +1,11 @@
+.alert-primary{
+  @apply py-3 px-5 mb-4 bg-primary-light text-primary text-sm rounded-md border border-primary;
+}
+
+.alert-secondary{
+  @apply py-3 px-5 mb-4 bg-secondary-light text-secondary text-sm rounded-md border border-secondary;
+}
+
+.alert-third{
+  @apply py-3 px-5 mb-4 bg-third-light text-third-dark text-sm rounded-md border border-third;
+}

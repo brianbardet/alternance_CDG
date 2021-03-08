@@ -1,0 +1,42 @@
+.input-group{
+    @apply md:flex;
+}
+
+.input-full{
+    @apply w-full px-2 mb-2;
+}
+
+.input-half{
+    @apply md:w-1/2 px-2 mb-4 md:mb-0;
+}
+
+.input-full label, .input-half label {
+    @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
+}
+
+.input-full input, .input-half input {
+    @apply appearance-none block w-full text-gray-700 border border-solid border-gray-300 py-1.5 px-3 mb-2;
+}
+
+.input-full select, .input-half select {
+    @apply appearance-none block w-full text-gray-700 border border-solid border-gray-300 py-1.5 px-3 mb-2;
+}
+
+.input-full p, .input-half p {
+    @apply text-red-500 text-xs italic;
+}
+
+.checkbox{
+    @apply inline-flex items-center m-3;
+}
+
+.checkbox input {
+    @apply h-4 w-4;
+}
+
+.checkbox span {
+    @apply ml-2 text-gray-700;
+}
+
+
+

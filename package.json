@@ -1,0 +1,27 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "autoprefixer": "^10.2.4",
+    "npm-watch": "^0.7.0",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.3"
+  },
+  "watch": {
+    "build:css": {
+      "patterns": [
+        "./**/*.html",
+        "./**/*.css"
+      ],
+      "ignore": "./css/output.css",
+      "extensions": "html,css"
+    }
+  },
+  "scripts": {
+    "build:css": "postcss css/main.css -o css/output.css",
+    "watch": "npm-watch"
+  }
+}

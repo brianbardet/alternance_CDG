@@ -1,0 +1,37 @@
+.btn-primary{
+  @apply focus:outline-none text-white text-sm py-1.5 px-3 rounded-md bg-primary hover:bg-primary hover:shadow-lg;
+}
+
+.btn-secondary{
+  @apply focus:outline-none text-white text-sm py-1.5 px-3 rounded-md bg-secondary hover:bg-secondary hover:shadow-lg;
+}
+
+.btn-third{
+  @apply focus:outline-none text-white text-sm py-1.5 px-3 rounded-md bg-third hover:bg-third hover:shadow-lg;
+}
+
+
+.btn-primary-disabled{
+  @apply focus:outline-none text-white text-sm py-1.5 px-3 rounded-md bg-primary-light;
+}
+
+.btn-secondary-disabled{
+  @apply focus:outline-none text-white text-sm py-1.5 px-3 rounded-md bg-secondary-light;
+}
+
+.btn-third-disabled{
+  @apply focus:outline-none text-white text-sm py-1.5 px-3 rounded-md bg-third-light;
+}
+
+.btn-primary-border{
+  @apply focus:outline-none text-primary text-sm py-1.5 px-3 rounded-md border border-primary hover:bg-primary-light;
+}
+
+.btn-secondary-border{
+  @apply focus:outline-none text-secondary text-sm py-1.5 px-3 rounded-md border border-secondary hover:bg-secondary-light;
+}
+
+.btn-third-border{
+  @apply focus:outline-none text-third text-sm py-1.5 px-3 rounded-md border border-third hover:bg-third-light;
+}
+

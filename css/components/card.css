@@ -1,0 +1,19 @@
+.card{
+    @apply bg-white shadow-lg rounded-lg overflow-hidden my-4 mx-2 md:w-1/2;
+}
+
+.card-header{
+    @apply flex items-center px-6 py-3 bg-primary;
+}
+
+.card-header h1 {
+    @apply mx-3 text-white font-semibold text-lg;
+}
+
+.card-body {
+    @apply py-4 px-6;
+}
+
+.card-group {
+    @apply md:flex;
+}
